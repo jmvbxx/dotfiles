@@ -1,0 +1,10 @@
+# see http://aaroncrane.co.uk/2008/04/ssh_faster/
+ControlMaster auto
+ControlPath /tmp/ssh_mux_%h_%p_%r
+
+TCPKeepAlive yes
+ServerAliveInterval 5
+ServerAliveCountMax 6
+Compression yes
+GSSAPIAuthentication no
+ForwardAgent no
