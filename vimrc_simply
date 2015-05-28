@@ -1,0 +1,15 @@
+set nocompatible
+filetype indent plugin on
+syntax on
+
+set backspace=indent,eol,start
+set autoindent
+
+set laststatus=2
+set confirm
+
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+
+set nu
