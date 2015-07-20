@@ -1,0 +1,20 @@
+:h / :help -> basic help
+
+:helpgrep <stuff>
+    :cnext / :cprev to step through
+    :cnfile / :cpfile
+
+Movement
+--------
+w   -> move forward one word
+e   -> move to the end of word
+0   -> beginning of current line
+$   -> end of current line
+gg  -> beginning of file
+G   -> end of file
+
+Deletions
+---------
+CTRL-Y -> copy line above
+CTRl-E -> copy line below
+CTRL-A -> inserts the same as previous insert
